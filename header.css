@@ -10,11 +10,11 @@
     display: flex; /* serve para manter o itens flexiveis à edição vertical/horizontal */
     justify-content: space-between; /* serve para dar espaçamento entre os itens */
     align-items: center; /* alinhar os itens no meio */
-    padding: 20px 28px;
+    padding: 12px 20px;
 }
 
 .logo img{
-    height: 40px; /* definir a altura da logo */
+    height: 48px; /* definir a altura da logo */
 }
 
 .nav-center ul{
