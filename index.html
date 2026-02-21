@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SintaxWear - Tênis e Sneakers Online</title>
-    
+
     <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./variable.css">
+    <link rel="stylesheet" href="./src/css/variable.css">
     <link rel="stylesheet" href="./layout.css">
     <link rel="stylesheet" href="./base.css">
-    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./src/componentes/header.css">
+    <link rel="stylesheet" href="./src/componentes/hero.css">
 </head>
+
 <body>
     <!-- Header com logo e navegação -->
     <header class="header">
         <h1 class="logo">
             <a href="/" title="SintaxWear - Tênis e Sneakers Online">
-                <img src="./images/banners/favicons/icons/logo/SyntaxWear.svg" alt="SintaxWear - Tênis e Sneakers Online">
+                <img src="./images/logo/SyntaxWear.svg" alt="SintaxWear - Tênis e Sneakers Online">
             </a>
         </h1>
         <nav class="nav-center" aria-label="Categorias Principais">
@@ -31,16 +34,26 @@
             <ul>
                 <li><a href="#" title="Nossas Lojas">Nossas Lojas</a></li>
                 <li><a href="#" title="Sobre">Sobre</a></li>
-                <li><a href="#" title="Minha conta"><img src="./images/banners/favicons/icons/Pessoa.svg" alt="minha conta"></a></li>
-                <li><a href="#" title="Ajuda"><img src="./images/banners/favicons/icons/Interrogação.svg" alt="Ajuda"></a></li>
-                <li><a href="#"title="Carrinho"><img src="./images/banners/favicons/icons/Compras.svg" alt="Carrinho"></a></li>
+                <li><a href="#" title="Minha conta"><img src="./images/icons/Pessoa.svg" alt="minha conta"></a></li>
+                <li><a href="#" title="Ajuda"><img src="./images/icons/Interrogação.svg" alt="Ajuda"></a></li>
+                <li><a href="#" title="Carrinho"><img src="./images/icons/Compras.svg" alt="Carrinho"></a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Seção Hero -->
-    <section class="hero">
-        <!-- Estrutura da seção hero aqui -->
+    <section class="hero-section">
+
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <span class="hero-subtitle">Krypton One</span>
+                <h2 class="hero-title">Transforme qualquer passo em presença.</h2>
+                <div class="hero-buttons">
+                    <a class="btn btn-outline" href="#">Ver modelos</a>
+                    <a class="btn btn-filled" href="#">Comprar</a>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Seção de Categorias de Tênis -->
@@ -58,4 +71,5 @@
         <!-- Estrutura do footer aqui -->
     </footer>
 </body>
+
 </html>
